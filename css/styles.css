@@ -13,15 +13,28 @@ h1{
   line-height: 2;
   color: #6B7AA1;
 }
+
 h2{
   text-align: center;
   margin-top: 0px;
   font-family: 'Montserrat', sans-serif;
   color: #5089C6;
+  font-weight: bold;
 }
 p{
   font-size: 1.5rem;
 
+}
+.pofg{
+  background-image: url("https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg");
+  background-size: 1500px;
+}
+.contact{
+  margin: 0px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    line-height: 2;
+    color: #6B7AA1;
 }
 .design{
   color: #5089C6;
@@ -62,21 +75,35 @@ top: 50px;
   line-height: 2;
 
 }
+.about{
+  width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+  line-height: 2;
+
+}
+.my{
+  font-size: 2.5rem;
+  color: #3cb0fd ;
+}
+.personal{
+  background-color:#dcdcdc  ; 
+}
 .pro{
   text-decoration: underline;
 }
 .bottomcloud{
   position: absolute;
     /* position: relative; */
-    left: 200px;
-    bottom: 400px;
+    left: 120px;
+    bottom: 520px;
 }
 .para{
   margin: 0px;
 }
 .mountain{
   height: 600px;
-  width: 900px;
+  width: 500px;
 }
 .middlecontainer{
   background-color: lightblue;
@@ -109,8 +136,10 @@ top: 50px;
 }
 .description{
   margin: 10px auto 20px auto;
-  font-size: 25px;
+   font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
   font-weight: bold;
+  color: black;
 }
 .footerlink{
   margin: 10px 20px;
@@ -134,6 +163,14 @@ top: 50px;
   border-radius: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
+  height: 420px;
+  width: 300px;
+}
+.get{
+  font-weight: bold;
+}
+.nav-link{
+  font-size: -50px;
 }
 .nh{
   width: 100%;
